@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;  
+    margin: 0; 
+    padding: 0; 
+    font-family: 'ProdigySansRegular', Verdana, Tahoma, sans-serif;
+}
+
+/*------------ HEADER BEGINS -----------------*/
+
+.nav__container {
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nav__lang {
+    margin-left: 40px;
+}
+
+.nav__lang a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s;
+    margin: 15px;
+}
+
+.nav__mode {
+    position:absolute;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbl_check {
+    display: inline-block;
+    margin: 2px 8px 0px 8px;
+    width: 54px;
+    height: 26px;
+    background: #aaa;
+    box-shadow: inset 0px 0px 6px rgba(0,0,0,0.7);
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:checked + .lbl_check {
+    background: #fff;
+}
+
+.lbl_check::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    top: 3px;
+    left: 5px;
+    transition: .3s;
+}
+
+#checkbox:checked + .lbl_check::after {
+    left: 28px;
+    background: #000;
+}
+
+.fas.fa-moon, .fas.fa-sun {
+    font-size: 28px;
+    color: #fff;
+    transition: color 1s;
+}
+
+/*------------ HEADER ENDS -----------------
+------------ BODY BEGINS ------------------*/
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(27, 54, 71) 0%, rgb(24, 24, 24) 100%);
+}
+
+.stars {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    z-index: -9999;
+    opacity: 0.2;
+    background-image: url(stars.jpg);
+    background-size: contain;
+}
+
+
+.main__background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv__card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    background: rgb(50, 50, 50);
+    transition: color, background-color .7s;
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    animation-name: blink;
+    animation-delay: .8s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.cv__logo {
+    width: inherit;
+    height: 150px;
+}
+
+.cv__img {
+    width: 105px;
+    height: 115px;
+    margin: 30px auto;
+}
+
+.cv__description { 
+    background: rgb(0, 0, 0);
+    transition: background-color 1s;
+    margin: 10px auto;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.cv__infocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.cv__infocontainer i {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+
+/* ------------infoIcons----------- */
+
+.fa-solid.fa-globe {
+    color: #fff;
+    transition: color 1s;
+}
+
+.fa-solid.fa-square-envelope {
+    color: #fff;
+    font-size: 28px;
+    transition: color 1s;
+}
+
+/* ------------infoIcons----------- */
+
+.cv__media {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv__mediaicon {
+    font-size: 25px;
+    margin: 5px 10px 5px 10px;
+    color: #fff;
+    transition: color 1s;
+}
+
+.fa-brands.fa-linkedin {
+    color: #fff;
+    transition: color 1s;
+}
+
+.fas.fa-language {
+    font-size: 25px;
+    padding: 17px;
+    color: #fff;
+    transition: color 1s;
+}
+
+.cv__languages {
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px 10px 10px 0px;
+}
+
+/*-------------------- CV page 2 ---------------------*/
+/*-------------------- CV page 2 ---------------------*/
+/*-------------------- CV page 2 ---------------------*/
+
+.cv__references {
+    width: 600px;
+    min-height: 500px;
+    margin: 20px;
+    background: rgb(50, 50, 50);
+    transition: color, background-color .7s;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    animation-name: blink;
+    animation-delay: .8s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.cv__about {
+    padding: 30px 30px 20px 30px;
+}
+
+.cv__about__description {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.cv__services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cv__services__title {
+    margin: 5px 0px 20px 30px;
+    font-size: 16px;
+}
+
+.cv__services__box {
+    display: flex;
+    width: 280px;
+    font-size: 14px;
+}
+
+.cv__services__description {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    transition: background-color 1s;
+    max-width: 400px;
+    height: 130px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    line-height: 1.5;
+}
+
+.cv__services__box img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 20px;
+}
+
+.cv__services__box p {
+    font-size: 13px;
+    padding: 15px;
+    text-align:center;
+}
+
+.cv__services__box.last {
+    margin: 0 auto;
+}
+
+.cv__references i {
+    font-size: 25px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 9999;
+    color: #fff;
+    transition: color 1s;
+}
+
+.fa-solid.fa-circle-arrow-left {
+    left: 20px;
+}
+
+.fa-solid.fa-circle-arrow-right {
+    right: 20px;
+}
+
+.cv__slide {
+    opacity: 0;
+    min-height: 500px;
+    width: 600px;
+}
+
+.cv__slide--show {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: 1s;
+}
+
+#slide2 , #slide3 {
+    position: absolute;
+    z-index: 100;
+    padding: 30px;
+    gap: 10px;
+}
+
+.cv__knowledge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cv__knowledge__box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    min-height: 50px;
+    background:rgb(0, 0, 0);
+    margin: 5px 0px 5px 0px;
+}
+
+.cv__knowledge__title {
+    margin-bottom: 10px;
+}
+
+.cv__knowledge__box i {
+    position: static;
+    margin: 0px 15px 0px 15px;
+}
+
+.cv__knowledge__box span {
+    position: absolute;
+    right: 20px;
+}
+
+.cv__proyects__title {
+    margin-bottom: 10px;
+}
+
+.cv__proyects__description {
+    font-size: 14px;
+}
+
+.cv__proyects__img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* ------------ANIMATIONS----------- */
+/* ------------ANIMATIONS----------- */
+
+
+
+@keyframes blink {
+    
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999% {
+    box-shadow: 0px 0px 4px #fff;
+		
+    }
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999%, 70%, 100% {
+        box-shadow: 0px 0px 25px #fff;
+	}
+}
+
+.blink {
+    -webkit-animation: blink 2s linear;
+    -moz-animation: blink 2s linear;
+    -ms-animation: blink 2s linear;
+    -o-animation: blink 2s linear;
+    animation: blink 2s linear;
+}
