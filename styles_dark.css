@@ -393,19 +393,6 @@ body {
     animation: blink 2s linear;
 }
 
-@keyframes langTransition {
-    0% {
-        color: red;
-        opacity: 0;
-    }
-
-    100% {
-        color: blue;
-        opacity: 1;
-    }
-}
-
-
 @media screen and (max-width: 930px) {
 
     body {
@@ -444,17 +431,16 @@ body {
         padding: 30px;
     }   
 
+    .cv__services__box {
+        flex-direction: row;
+    }
+
     .cv__about__description{
         margin: 20px;
     }
 
     .cv__services {
         margin-left: -10px;
-    }
-
-    .cv__services__box {
-        flex-direction: column;
-        align-items: center;
     }
 
     .cv__services__box.last {
