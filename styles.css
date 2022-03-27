@@ -90,8 +90,8 @@ body {
     position: absolute;
     z-index: -9999;
     opacity: 0.1;
-    background-image: url(sea.jpg);
-    background-size: contain;
+    background-image: url(img/sea.jpg);
+    background-size: cover;
 }
 
 .main__background {
@@ -208,6 +208,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .cv__about {
@@ -226,7 +227,6 @@ body {
 
 .cv__services__title {
     margin: 5px 0px 20px 30px;
-    font-size: 16px;
 }
 
 .cv__services__box {
@@ -286,6 +286,7 @@ body {
 .cv__slide--show {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     opacity: 1;
     transition: 1s;
 }
@@ -295,6 +296,10 @@ body {
     z-index: 100;
     padding: 30px;
     gap: 10px;
+}
+
+.cv__more p {
+    font-size: 14px;
 }
 
 .cv__knowledge {
@@ -310,7 +315,7 @@ body {
     width: 80%;
     min-height: 50px;
     background:rgb(235, 235, 235);
-    margin: 5px 0px 5px 0px;
+    margin: 3px auto;
 }
 
 .cv__knowledge__title {
@@ -328,16 +333,113 @@ body {
     color: rgb(100, 175, 100);
 }
 
-.cv__proyects__title {
+.cv__projects__title {
     margin-bottom: 10px;
 }
 
-.cv__proyects__description {
+.cv__projects__description {
     font-size: 14px;
 }
 
-.cv__proyects__img {
+.cv__projects__img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 930px) {
+
+    body {
+        height: 100%;
+    }
+
+    .main__background {
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .cv__references {
+        width: 80%;
+    } 
+
+    .cv__services__box{
+        margin: 0 auto;
+    }
+
+    .cv__services__box.last {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        min-width: 360px;
+        height: 100%;
+    }
+
+    .main__background {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }   
+
+    .cv__about__description{
+        margin: 20px;
+    }
+
+    .cv__services {
+        margin-left: -10px;
+    }
+
+    .cv__services__box.last {
+        margin-bottom: 50px;
+    }
+
+    .cv__services__description {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .cv__references {
+        min-width: 280px;
+        padding-top: 40px;
+        line-height: 2.0;
+    }
+
+    .cv__services__title {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .fa-solid.fa-circle-arrow-left ,
+    .fa-solid.fa-circle-arrow-right {
+        top: 20px;
+    }
+
+    .cv__knowledge__title {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .cv__knowledge__box {
+        margin: 10px 0px 10px 0px;
+        align-self: center;
+    }
+
+    .cv__knowledge span {
+        display: none;
+    }
+
+    .cv__projects__description {
+        margin-bottom: 30px;
+    }
+
+    #slide1 ,
+    #slide2 ,
+    #slide3 {
+        text-align: center;
+    }
+
 }

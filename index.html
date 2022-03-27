@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luciano Martin">
     <meta name="keywords" content="Luciano, Martin, Portfolio, Web">
+    <link rel="icon" href="/img/icon_port.png" type="image/png" /> 
     <link rel="stylesheet" href="styles.css" id="stylesheet">
-    <link rel="icon" href="icon_port.png" type="image/png" /> 
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/prodigy-sans" type="text/css"/>  
     <title>Luciano Martin</title>
@@ -32,7 +32,7 @@
     <section class="main__background">
         <div class="cv__card">
             <picture class="cv__logo">
-                <img src="foto cv.png" alt="cvpicture" class="cv__img" id="cv__img">
+                <img src="img/foto cv.png" alt="cvpicture" class="cv__img" id="cv__img">
             </picture>
             <div class="cv__description">
                 Web Developer
@@ -59,19 +59,19 @@
                         <h2 class="cv__about__title">Profile</h2>
                         <p class="cv__about__description">Risponsable, self taught, passionate with a great learning ability and fluent <strong>english</strong>. At this moment, I'm currently on a Full Stack developer Bootcamp.</p>
                     </div>
-                    <h2 class="cv__services__title">What I do</h2>
+                    <h3 class="cv__services__title">What I do</h3>
                     <div class="cv__services">
                         <div class="cv__services__box">
-                            <img src="static.svg">
-                            <div class="cv__services__description"><p>I do your website with <b>HTML</b>, <b>CSS</b> y <b>Javascript</b></p></div>
+                            <img src="img/static.svg">
+                            <div class="cv__services__description" id="service1"><p>I do your website with <b>HTML</b>, <b>CSS</b> y <b>Javascript</b></p></div>
                         </div>
                         <div class="cv__services__box">
-                            <img src="responsive.svg" alt="">
-                            <div class="cv__services__description"><p>Your own responsive web site, adaptable or mobile first</p></div>
+                            <img src="img/responsive.svg" alt="">
+                            <div class="cv__services__description" id="service2"><p>Your own responsive web site, adaptable or mobile first</p></div>
                         </div>
                         <div class="cv__services__box last">
-                            <img src="wordpress.svg" class="cv__services" alt="">
-                            <div class="cv__services__description"><p>I can also work with other tools like <b>Wordpress</b></p></div>
+                            <img src="img/wordpress.svg" class="cv__services" alt="">
+                            <div class="cv__services__description" id="service3"><p>I can also work with other tools like <b>Wordpress</b></p></div>
                         </div>
                     </div>
                 </div>
@@ -79,28 +79,29 @@
                 <div class="cv__slide" id="slide2" data-id="2">
                     <div class="cv__more">
                         <h2>About me</h2><br>
-                        <p style="font-size:14px">I'm a person who is always learning something new. I've started studying on my own and at the moment I'm working on my first proyects. Also, I count with a life coach certification and fluent english.</p>
+                        <p>I'm a person who is always learning something new. I've started studying on my own and at the moment I'm working on my first project. Also, I count with a life coach certification and fluent english.</p>
                     </div>
                     <div class="cv__knowledge">
-                        <h2 class="cv__knowledge__title">Knowledge</h2>
+                        <h3 class="cv__knowledge__title">Knowledge</h3>
                         <div class="cv__knowledge__box"><i class="fa-brands fa-html5"></i>HTML<span>Good</span></div>
                         <div class="cv__knowledge__box"><i class="fa-brands fa-css3-alt"></i>CSS<span>Good</span></div>
-                        <div class="cv__knowledge__box"><i class="fa-brands fa-js"></i>Javascript<span>Beginner</span></div>
+                        <div class="cv__knowledge__box"><i class="fa-brands fa-js"></i>Javascript<span>Basic</span></div>
+                        <div class="cv__knowledge__box"><i class="fa-brands fa-git-alt"></i>Git <span>Intermediate</span></div>
                         <div class="cv__knowledge__box"><i class="fa-solid fa-camera"></i>Photoshop <span>Good</span></div>
                     </div>
                 </div>
 
                 <div class="cv__slide" id="slide3" data-id="3">
-                    <h2 class="cv__proyects__title">Proyects</h2>
-                    <p class="cv__proyects__description">At this time, my work is focused on the full stack bootcamp and a landing page for a hostel. The portfolio you are watching now was built with pure HTML, CSS and Javascript. No shortcuts or libraries =). I'll be updating this section very soon, ¡stay tuned!</p>
-                    <img src="onconstruction.svg" alt="on construction" class="cv__proyects__img">
+                    <h2 class="cv__projects__title">Projects</h2>
+                    <p class="cv__projects__description">At this time, my work is focused on the full stack bootcamp and a landing page for a hostel. The portfolio you are watching now was built with pure HTML, CSS and Javascript. No shortcuts or libraries =). I'll be updating this section very soon, ¡stay tuned!</p>
+                    <img src="img/onconstruction.svg" alt="on construction" class="cv__projects__img">
                 </div>
 
-            <a href="#" id="btn_prev"><i class="fa-solid fa-circle-arrow-left"></i></a>
-            <a href="#" id="btn_next"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                <a href="#arrowleft" id="btn_prev"><i class="fa-solid fa-circle-arrow-left" name="arrowleft"></i></a>
+                <a href="#arrowright" id="btn_next"><i class="fa-solid fa-circle-arrow-right" name="arrowright"></i></a>
 
         </div>
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
     </section>
 </body>
 </html>
