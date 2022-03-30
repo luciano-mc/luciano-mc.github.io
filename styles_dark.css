@@ -353,6 +353,7 @@ body {
 .cv__knowledge__box span {
     position: absolute;
     right: 20px;
+    color: rgb(252, 242, 112);
 }
 
 .cv__projects__title {
