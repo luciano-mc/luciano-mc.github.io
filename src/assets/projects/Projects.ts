@@ -1,4 +1,4 @@
-import { React, Tailwind, Typescript, Javascript, Node, Mongo, Sass, Css, Html } from '@/assets/Icons'
+import { React, Typescript, Javascript, Node, Mongo, Sass, Css, Html } from '@/assets/Icons'
 import type { IconType } from '@/assets/Icons';
 import Jump2Digital from '@/assets/projects/hackathon2.webp';
 import CAPBA from '@/assets/projects/capba.webp';

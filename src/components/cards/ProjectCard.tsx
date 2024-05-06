@@ -1,6 +1,5 @@
 import Icon from '@/components/Icon';
 import type { IconType } from '@/assets/Icons';
-import type { ProjectType } from '@/assets/projects/Projects';
 import { useTranslation } from 'react-i18next';
 
 function ProjectCard({project} : any) {
