@@ -1,11 +1,11 @@
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
-import Projects from '@/components/Projects';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
-import { useThemeContext } from '@/context/ThemeContext';
+import Header from '@/components/Header.tsx';
+import Hero from '@/components/Hero.tsx';
+import About from '@/components/About.tsx';
+import Skills from '@/components/Skills.tsx';
+import Projects from '@/components/Projects.tsx';
+import Contact from '@/components/Contact.tsx';
+import Footer from '@/components/Footer.tsx';
+import { useThemeContext } from '@/context/ThemeContext.tsx';
 import { useEffect } from 'react';
 
 function App() {
