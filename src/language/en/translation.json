@@ -1,0 +1,35 @@
+{
+  "navlinks": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "intro": "Hello, I'm Luciano",
+  "description": "Building intuitive and visually stunning experiences, one line of code at a time.",
+  "about": {
+    "title": "About me",
+    "paragraph1": "As a frontend developer, I'm passionate about crafting exceptional user experiences with React. I believe in writing clean, modular, and type-safe code that's both functional and visually stunning. Passionate about programming and video games, I am a self-learner with an analytical focus and a quick learning ability.",
+    "paragraph2": "With a keen eye for detail and a drive for innovation, I'm always seeking out new challenges and ways to improve my code. Let's build something amazing together!"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "What I am great at",
+    "description": "Take a look at the skills that fuel my creativity and drive my passion for building amazing digital products"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Explore my portfolio of projects, where I blend creativity and technology, primarily offering solutions in React. This portfolio is constantly updated. Stay tuned for updates!",
+    "Jump2Digital": "Rick And Morty app made for Jump2Digital hackathon with Typescript and React",
+    "CAPBA": "Landing page created for Colleague of Architects from Buenos Aires. The website is done with HTML, CSS, and JS.",
+    "Juguetería Cósmica": "Demo for a ecommerce for my Bootcamp. Developed with JS and Node, uses MongoDB Atlas and styled in SASS.",
+    "Game App": "React game app consuming API that shows the ammount of reviews on Steam for the game you are looking for.",
+    "Weather App": "Weather app crafted with React, CSS, and HTML. Delivers accurate forecasts with an intuitive and elegant interface.",
+    "InfoBoard": "Dashboard developed for Infojobs and Midudev Hackathon. Save searches, show offers and their statistics."
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "Ways to contact",
+    "descripition": "Want to collaborate on a project, discuss a potential opportunity, or just say hello? I'd love to hear from you You can reach me on any of this ways and send me a message. Let's connect and explore how we can create something amazing together. I look forward to hearing from you!"
+  },
+  "footer": "Crafted with ❤️"
+}
