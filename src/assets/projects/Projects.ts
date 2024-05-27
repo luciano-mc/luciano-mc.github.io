@@ -6,6 +6,7 @@ import Jugueteria from '@/assets/projects/ecommerce.webp';
 import GameApp from '@/assets/projects/game-app.webp';
 import WeatherApp from '@/assets/projects/weather-app.webp';
 import Infoboard from '@/assets/projects/hackathon.webp';
+import SpotifyClon from '@/assets/projects/spotify-clon.png';
 
 export type ProjectType = {
   link: string,
@@ -16,6 +17,13 @@ export type ProjectType = {
 }
 
 const ProjectsList = [
+  {
+    link: "https://spotify-clon-xi.vercel.app/",
+    img: SpotifyClon,
+    title: "Spotify Clon",
+    description: "Spotify clon made with React and Typescript",
+    technologies: [Typescript, React, Css, Html],
+  },
   {
     link: "https://jump2digital-hackathon.vercel.app/",
     img: Jump2Digital,
