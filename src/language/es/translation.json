@@ -19,6 +19,7 @@
   "projects": {
     "title": "Proyectos",
     "description": "Explora mi portafolio de proyectos, donde combino creatividad y tecnología, ofreciendo principalmente soluciones en React. Este portafolio se actualiza constantemente. ¡Estén atentos a las actualizaciones!",
+    "Spotify Clon": "Spotify clon hecho con React y Typescript",
     "Jump2Digital": "App de Rick And Morty hecha para la Jump2Digital hackathon con Typescript y React",
     "CAPBA": "Landing page creada para el Colegio de Arquitectos de la Ciudad de Buenos Aires con HTML, CSS y Javascript.",
     "Juguetería Cósmica": "Demo de ecommerce para mi Bootcamp desarrollada con JS y Node, usa MongoDB Atlas y estilizada con SASS.",
