@@ -6,6 +6,7 @@ import Jugueteria from '@/assets/projects/ecommerce.webp';
 import GameApp from '@/assets/projects/game-app.webp';
 import WeatherApp from '@/assets/projects/weather-app.webp';
 import Infoboard from '@/assets/projects/hackathon.webp';
+import SpotifyClon from '@/assets/projects/spotify-clon.png';
 
 export type ProjectType = {
   link: string,
@@ -31,11 +32,11 @@ const ProjectsList = [
     technologies: [Javascript, Css, Html],
   },
   {
-    link: "https://jugueteria-cosmica.glitch.me/",
-    img: Jugueteria,
-    title: "Juguetería Cósmica",
-    description: "Demo for a ecommerce for my Bootcamp. Developed with JS and Node, uses MongoDB Atlas and styled in SASS.",
-    technologies: [Sass, Javascript, Node, Mongo],
+    link: "https://spotify-clon-xi.vercel.app/",
+    img: SpotifyClon,
+    title: "Spotify Clon",
+    description: "Spotify clon made with React and Typescript",
+    technologies: [Typescript, React, Css, Html],
   },
   {
     link: "https://react-game-app.vercel.app/",
@@ -45,18 +46,18 @@ const ProjectsList = [
     technologies: [React, Css, Html],
   },
   {
+    link: "https://jugueteria-cosmica.glitch.me/",
+    img: Jugueteria,
+    title: "Juguetería Cósmica",
+    description: "Demo for a ecommerce for my Bootcamp. Developed with JS and Node, uses MongoDB Atlas and styled in SASS.",
+    technologies: [Sass, Javascript, Node, Mongo],
+  },
+  {
     link: "https://weather-react-app.glitch.me/",
     img: WeatherApp,
     title: "Weather App",
     description: "Weather app crafted with React, CSS, and HTML. Delivers accurate forecasts with an intuitive and elegant interface.",
     technologies: [React, Css, Html],
-  },
-  {
-    link: "https://infojobs-hackathon-db.vercel.app/",
-    img: Infoboard,
-    title: "InfoBoard",
-    description: "Dashboard developed for Infojobs and Midudev Hackathon. Save searches, show offers and their statistics.",
-    technologies: [React, Css, Html, Mongo],
   },
 ]
 

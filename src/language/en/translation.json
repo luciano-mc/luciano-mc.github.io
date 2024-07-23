@@ -13,18 +13,18 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "What I am great at",
+    "subtitle": "My stack",
     "description": "Take a look at the skills that fuel my creativity and drive my passion for building amazing digital products"
   },
   "projects": {
     "title": "Projects",
     "description": "Explore my portfolio of projects, where I blend creativity and technology, primarily offering solutions in React. This portfolio is constantly updated. Stay tuned for updates!",
+    "Spotify Clon": "Spotify clon made with React and Typescript",
     "Jump2Digital": "Rick And Morty app made for Jump2Digital hackathon with Typescript and React",
     "CAPBA": "Landing page created for Colleague of Architects from Buenos Aires. The website is done with HTML, CSS, and JS.",
     "Juguetería Cósmica": "Demo for a ecommerce for my Bootcamp. Developed with JS and Node, uses MongoDB Atlas and styled in SASS.",
     "Game App": "React game app consuming API that shows the ammount of reviews on Steam for the game you are looking for.",
-    "Weather App": "Weather app crafted with React, CSS, and HTML. Delivers accurate forecasts with an intuitive and elegant interface.",
-    "InfoBoard": "Dashboard developed for Infojobs and Midudev Hackathon. Save searches, show offers and their statistics."
+    "Weather App": "Weather app crafted with React, CSS, and HTML. Delivers accurate forecasts with an intuitive and elegant interface."
   },
   "contact": {
     "title": "Contact me",

@@ -19,12 +19,12 @@
   "projects": {
     "title": "Proyectos",
     "description": "Explora mi portafolio de proyectos, donde combino creatividad y tecnología, ofreciendo principalmente soluciones en React. Este portafolio se actualiza constantemente. ¡Estén atentos a las actualizaciones!",
+    "Spotify Clon": "Spotify clon hecho con React y Typescript",
     "Jump2Digital": "App de Rick And Morty hecha para la Jump2Digital hackathon con Typescript y React",
     "CAPBA": "Landing page creada para el Colegio de Arquitectos de la Ciudad de Buenos Aires con HTML, CSS y Javascript.",
     "Juguetería Cósmica": "Demo de ecommerce para mi Bootcamp desarrollada con JS y Node, usa MongoDB Atlas y estilizada con SASS.",
     "Game App": "App hecha con React consumiendo una API que muestra la cantidad de reviews de los videojuegos en Steam.",
-    "Weather App": "App del clima diseñada en React, CSS y HTML. Proporciona pronósticos precisos con una interfaz intuitiva y elegante.",
-    "InfoBoard": "Dashboard desarrollado para la Hackathon de Infojobs y Midudev. Guarda las búsquedas, muestra las ofertas y sus estadísticas."
+    "Weather App": "App del clima diseñada en React, CSS y HTML. Proporciona pronósticos precisos con una interfaz intuitiva y elegante."
   },
   "contact": {
     "title": "Contáctame",
