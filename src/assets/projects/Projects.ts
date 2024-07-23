@@ -5,7 +5,6 @@ import CAPBA from '@/assets/projects/capba.webp';
 import Jugueteria from '@/assets/projects/ecommerce.webp';
 import GameApp from '@/assets/projects/game-app.webp';
 import WeatherApp from '@/assets/projects/weather-app.webp';
-import Infoboard from '@/assets/projects/hackathon.webp';
 import SpotifyClon from '@/assets/projects/spotify-clon.png';
 
 export type ProjectType = {
